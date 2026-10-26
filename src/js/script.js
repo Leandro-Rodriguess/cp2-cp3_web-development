@@ -32,7 +32,7 @@ function inserir() {
 
 let container = document.querySelector("#containerImagem");
 
-if (container) {
+if (container && botao) {
     
 }
 
@@ -55,5 +55,5 @@ let botao = document.querySelector("#btnImagem");
     novaImg.style.marginTop = "15px";
     novaImg.style.display = "block";
 
-    container.appendChild(novaImagem);
+    container.appendChild(novaImg);
 });
