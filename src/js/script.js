@@ -14,8 +14,7 @@ function Mudar() {
 
 function inserir() {
     
-    let posicaoInput = document.getElementById("posicao").value
-- 1;
+    let posicaoInput = document.getElementById("posicao").value - 1;
     let novoEquipamento = document.getElementById("novo").value;
     
    
