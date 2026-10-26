@@ -32,11 +32,15 @@ function inserir() {
 
 let container = document.querySelector("#containerImagem");
 
+if (container) {
+    
+}
+
 let botao = document.querySelector("#btnImagem");
 
     if (botao) {
     botao.addEventListener("click", function () {
-        // Código executado ao clicar no botão
+        
         });
     }
     let novaImg = document.createElement("img");
