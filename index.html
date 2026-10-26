@@ -1,17 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./src/css/estilo.css">
-    <title>Projeto</title>
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <title>Projeto CidadeFit</title>
 </head>
 <body>
 
     <header class="header">
         <h1 id="titulo">CidadeFit Tech</h1>
         <nav>
-            <a href="index.html">Início</a> | 
+            <a href="index.html">Início</a> |
             <a href="./src/pages/sobre.html">Sobre a Academia</a>
         </nav>
     </header>
@@ -20,17 +21,18 @@
 
         <section class="card">
             <h2 id="meio">Identificação do Aluno</h2>
-            <label for="nome">Digite seu Apelido / Nome:</label>
-            <input type="text" id="usuario_nome" placeholder="Ex: Carlos Dev">
-            <button onclick="mudar()">Atualizar Título</button>
-        </section>
 
+            <label for="nome">Digite seu Apelido / Nome:</label>
+            <input type="text" id="nome" placeholder="Ex: Carlos Dev">
+
+            <button onclick="Mudar()">Atualizar Título</button>
+        </section>
 
         <section class="card">
             <h2>Gerenciamento de Equipamentos</h2>
             <p>Lista atual de Equipamentos:</p>
+
             <ul>
-               
                 <li class="equipamento">Esteira</li>
                 <li class="equipamento">Leg Press</li>
                 <li class="equipamento">Supino</li>
@@ -39,56 +41,58 @@
             <div class="form-grupo">
                 <label for="posicao">Posição (1 a 3):</label>
                 <input type="number" id="posicao" min="1" max="3" value="1">
+
                 <label for="novo">Novo Equipamento:</label>
                 <input type="text" id="novo" placeholder="Ex: Bicicleta Ergométrica">
-                <button onclck="inserir()">Substituir na Posição</button>
+
+                <button onclick="inserir()">Substituir na Posição</button>
             </div>
         </section>
 
-        
         <section class="card">
             <h2>Área de Treino Dinâmica</h2>
             <p>Clique abaixo para carregar o card oficial do treino de hoje:</p>
+
             <button id="btnImagem">Carregar Imagem do Treino</button>
             <div id="containerImagem"></div>
         </section>
+
     </main>
-    
+
     <footer class="footer">
         <div class="footer-content">
+
             <div class="footer-section">
                 <h3>CidadeFit Tech</h3>
                 <p>Inovação, tecnologia e alta performance para o seu treino diário.</p>
             </div>
-            
+
             <div class="footer-section">
                 <h4>Links Rápidos</h4>
                 <ul>
-                  
                     <li><a href="#titulo">Início</a></li>
                     <li><a href="#meio">Sobre a Academia</a></li>
-                    <li><a href="">Modalidades</a></li>
+                    <li><a href="#containerImagem">Modalidades</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
                 <h4>Redes Sociais</h4>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/" target="_blank">Instagram</a> | 
-                    <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a> | 
-                    <a href="https://github.com/" target="_blank">GitHub</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> |
+                    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
+
         </div>
-        
+
         <div class="footer-bottom">
-            <p>&copy; 2026- Direitos Reservados </p>
+            <p>&copy; 2026 - Direitos Reservados</p>
         </div>
     </footer>
 
-
     <script src="./src/js/script.js"></script>
 
-   
 </body>
 </html>
