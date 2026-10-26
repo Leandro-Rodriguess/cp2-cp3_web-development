@@ -38,7 +38,7 @@ body {
     padding: 0 20px;
 }
 
-#card {
+.card {
     background: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
