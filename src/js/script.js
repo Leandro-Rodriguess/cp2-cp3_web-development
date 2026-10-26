@@ -24,7 +24,7 @@ function inserir() {
         elementosEquipamentos[posicaoInput].innerHTML = novoEquipamento;
         document.getElementById("novo").value = ""; 
     } else {
-        ("Posição inválida ou campo vazio!");
+        alert("Posição inválida ou campo vazio!");
     }
 }
 
