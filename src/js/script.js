@@ -29,15 +29,16 @@ function inserir() {
 }
 
 
-let botao = document.querySelector("#btnImagem");
+
 let container = document.querySelector("#containerImagem");
 
-botao.addEventListener("click", function () {
-    if (document.getElementById("minhaImagem")) {
-        alert("A imagem do treino já foi criada!");
-        return;
+let botao = document.querySelector("#btnImagem");
+
+    if (botao) {
+    botao.addEventListener("click", function () {
+        // Código executado ao clicar no botão
+        });
     }
-    
     let novaImg = document.createElement("img");
     novaImg.id = "minhaImagem";
    
