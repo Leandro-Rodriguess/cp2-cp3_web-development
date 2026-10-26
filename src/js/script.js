@@ -8,7 +8,7 @@ function Mudar() {
     
     if (novo.value.trim() !== "") {
        
-        titulo.innerHTML = "CidadeFit Tech - Aluno: ${novo.value}";
+        titulo.innerHTML = `CidadeFit Tech - Aluno: ${novo.value}`;
     }
 }
 
